@@ -1,0 +1,46 @@
+## ==========================================
+## Build Results & Binaries (Compilación)
+## ==========================================
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa]rms/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## ==========================================
+## Visual Studio User & Environment Specifics
+## ==========================================
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+## ==========================================
+## SonarQube & Sonar Analyzer Temporaries
+## ==========================================
+.sonar/
+.sonarqube/
+
+## ==========================================
+## NuGet Packages & Caches
+## ==========================================
+*.nupkg
+packages/
+!**/packages/build/
+
+## ==========================================
+## Archivos del sistema operativo
+## ==========================================
+Thumbs.db
+Desktop.ini
+.DS_Store
