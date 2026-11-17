@@ -31,8 +31,7 @@ namespace SoyCrFisness.Views
             MaximizeBox = false;
 
             var lblRol = new Label { Left = 30, Top = 22, Width = 280, Text = "Seleccione su Rol:" };
-            _cmbRol.Items.AddRange(["Usuario", "Entrenador"]);
-
+            _cmbRol.Items.AddRange("Usuario", "Entrenador");
             _cmbRol.SelectedIndex = 0;
 
             var lblId = new Label { Left = 30, Top = 82, Width = 280, Text = "Usuario, ID o Correo:" };
@@ -40,7 +39,7 @@ namespace SoyCrFisness.Views
             _btnIngresar.Click += AlHacerClicIngresar;
             _btnRegistrar.Click += AlHacerClicRegistrar;
 
-            Controls.AddRange([lblRol, _cmbRol, lblId, _txtIdentificador, _btnIngresar, _btnRegistrar]);
+            Controls.AddRange(lblRol, _cmbRol, lblId, _txtIdentificador, _btnIngresar, _btnRegistrar);
         }
 
         private void AlHacerClicIngresar(object? sender, EventArgs e)
@@ -61,19 +60,10 @@ namespace SoyCrFisness.Views
                     return;
                 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-                MessageBox.Show($"¡Bienvenido(a), {usuario.Nombre}!\nIMC actual: {usuario.CalcularImc()} | Meta: {usuario.Meta}", "Acceso Correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Hide();
+                using var panelUsuario = new UsuarioDashboardForm(usuario, _gimnasioController);
+                panelUsuario.ShowDialog();
+                Show();
                 return;
             }
 
@@ -84,7 +74,10 @@ namespace SoyCrFisness.Views
                 return;
             }
 
-            MessageBox.Show($"¡Bienvenido(a), Entrenador(a) {entrenador.Nombre}!\nEspecialidad: {entrenador.Especialidad}", "Acceso Correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Hide();
+            using var panelEntrenador = new EntrenadorDashboardForm(entrenador, _authController, _gimnasioController);
+            panelEntrenador.ShowDialog();
+            Show();
         }
 
         private void AlHacerClicRegistrar(object? sender, EventArgs e)
@@ -96,25 +89,8 @@ namespace SoyCrFisness.Views
             }
 
             string user = Microsoft.VisualBasic.Interaction.InputBox("Nombre de usuario (ej: lda_nuevo):", "Registro SoyCrFisness");
-
             string pesoTexto = Microsoft.VisualBasic.Interaction.InputBox("Peso en kg (ej: 70):", "Registro SoyCrFisness");
             string alturaTexto = Microsoft.VisualBasic.Interaction.InputBox("Altura en metros (ej: 1.75):", "Registro SoyCrFisness");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             if (!double.TryParse(pesoTexto, out double peso) || !double.TryParse(alturaTexto, out double altura) || string.IsNullOrWhiteSpace(user))
             {

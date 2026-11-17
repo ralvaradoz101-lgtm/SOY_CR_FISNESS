@@ -1,9 +1,4 @@
-﻿
-
-
-
-
-using SoyCrFisness.Controllers;
+﻿using SoyCrFisness.Controllers;
 using SoyCrFisness.Models;
 
 namespace SoyCrFisness.Views
@@ -58,7 +53,7 @@ namespace SoyCrFisness.Views
             };
 
             var lblClase = new Label { Left = 20, Top = 82, Width = 250, Text = "Registrar visita o clase grupal:" };
-            _cmbClase.Items.AddRange(["Hora abierta", "Yoga", "Crossfit", "Zumba", "Spinning"]);
+            _cmbClase.Items.AddRange("Hora abierta", "Yoga", "Crossfit", "Zumba", "Spinning");
             _cmbClase.SelectedIndex = 0;
             _btnRegistrarAsistencia.Click += AlHacerClicRegistrarAsistencia;
 
@@ -67,10 +62,8 @@ namespace SoyCrFisness.Views
             var lblNotificaciones = new Label { Left = 20, Top = 293, Width = 740, Text = "Timeline de Notificaciones y Alertas:" };
 
             Controls.AddRange(
-            [
                 lblTitulo, lblMetricas, lblClase, _cmbClase, _btnRegistrarAsistencia,
-                lblRutinas, _lstRutinas, lblInsignias, _lstInsignias, lblNotificaciones, _lstNotificaciones
-            ]);
+                lblRutinas, _lstRutinas, lblInsignias, _lstInsignias, lblNotificaciones, _lstNotificaciones);
         }
 
         private void CargarDatos()
