@@ -1,0 +1,102 @@
+[
+  {
+    "Id": "RUT-01",
+    "UsuarioId": "USR-01",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Tren Superior Fuerza",
+    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-02T11:15:44.7812937-06:00",
+    "FechaExpiracion": "2026-11-19T11:15:44.7824111-06:00"
+  },
+  {
+    "Id": "RUT-02",
+    "UsuarioId": "USR-02",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Pierna y Gl\u00FAteo",
+    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-02T11:15:44.782459-06:00",
+    "FechaExpiracion": "2026-11-19T11:15:44.7824597-06:00"
+  },
+  {
+    "Id": "RUT-03",
+    "UsuarioId": "USR-03",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio HIIT",
+    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-02T11:15:44.7824603-06:00",
+    "FechaExpiracion": "2026-11-19T11:15:44.7824604-06:00"
+  },
+  {
+    "Id": "RUT-04",
+    "UsuarioId": "USR-04",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Core y Resistencia",
+    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
+    "PesoCargaKg": 45,
+    "FechaAsignacion": "2026-11-02T11:15:44.7824609-06:00",
+    "FechaExpiracion": "2026-12-02T11:15:44.782461-06:00"
+  },
+  {
+    "Id": "RUT-05",
+    "UsuarioId": "USR-05",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Full Body Inicio",
+    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
+    "PesoCargaKg": 50,
+    "FechaAsignacion": "2026-11-02T11:15:44.7824614-06:00",
+    "FechaExpiracion": "2026-12-02T11:15:44.7824615-06:00"
+  },
+  {
+    "Id": "RUT-06",
+    "UsuarioId": "USR-06",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Tren Superior Fuerza",
+    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
+    "PesoCargaKg": 55,
+    "FechaAsignacion": "2026-11-02T11:15:44.7824628-06:00",
+    "FechaExpiracion": "2026-12-02T11:15:44.7824629-06:00"
+  },
+  {
+    "Id": "RUT-07",
+    "UsuarioId": "USR-07",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Pierna y Gl\u00FAteo",
+    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
+    "PesoCargaKg": 60,
+    "FechaAsignacion": "2026-11-02T11:15:44.7824633-06:00",
+    "FechaExpiracion": "2026-12-02T11:15:44.7824633-06:00"
+  },
+  {
+    "Id": "RUT-08",
+    "UsuarioId": "USR-08",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio HIIT",
+    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
+    "PesoCargaKg": 65,
+    "FechaAsignacion": "2026-11-02T11:15:44.7824636-06:00",
+    "FechaExpiracion": "2026-12-02T11:15:44.7824636-06:00"
+  },
+  {
+    "Id": "RUT-09",
+    "UsuarioId": "USR-09",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Core y Resistencia",
+    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
+    "PesoCargaKg": 70,
+    "FechaAsignacion": "2026-11-02T11:15:44.7824639-06:00",
+    "FechaExpiracion": "2026-12-02T11:15:44.782464-06:00"
+  },
+  {
+    "Id": "RUT-10",
+    "UsuarioId": "USR-10",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Full Body Inicio",
+    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
+    "PesoCargaKg": 75,
+    "FechaAsignacion": "2026-11-02T11:15:44.7824652-06:00",
+    "FechaExpiracion": "2026-12-02T11:15:44.7824652-06:00"
+  }
+]

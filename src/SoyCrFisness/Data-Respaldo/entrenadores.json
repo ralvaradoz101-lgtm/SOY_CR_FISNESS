@@ -1,0 +1,42 @@
+[
+  {
+    "Especialidad": "T\u00E1ctica y Fuerza",
+    "TipoEntrenador": "Piso",
+    "Id": "ENT-01",
+    "Nombre": "\u00D3scar Ram\u00EDrez",
+    "Correo": "oramirez@lda.cr",
+    "Edad": 61
+  },
+  {
+    "Especialidad": "Resistencia y Cardio",
+    "TipoEntrenador": "Grupal",
+    "Id": "ENT-02",
+    "Nombre": "Wilmer L\u00F3pez",
+    "Correo": "wlopez@lda.cr",
+    "Edad": 55
+  },
+  {
+    "Especialidad": "Movilidad y Core",
+    "TipoEntrenador": "Grupal",
+    "Id": "ENT-03",
+    "Nombre": "Bryan Ruiz",
+    "Correo": "bruiz@lda.cr",
+    "Edad": 41
+  },
+  {
+    "Especialidad": "Hipertrofia",
+    "TipoEntrenador": "Piso",
+    "Id": "ENT-04",
+    "Nombre": "Javier Delgado",
+    "Correo": "jdelgado@lda.cr",
+    "Edad": 58
+  },
+  {
+    "Especialidad": "Crossfit y Funcional",
+    "TipoEntrenador": "Grupal",
+    "Id": "ENT-05",
+    "Nombre": "Shirley Cruz",
+    "Correo": "scruz@lda.cr",
+    "Edad": 41
+  }
+]

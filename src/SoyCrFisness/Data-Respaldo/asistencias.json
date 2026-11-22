@@ -1,0 +1,122 @@
+[
+  {
+    "Id": "ASI-01",
+    "UsuarioId": "USR-02",
+    "TipoClase": "Crossfit",
+    "Fecha": "2026-11-16T11:15:44.7828037-06:00"
+  },
+  {
+    "Id": "ASI-02",
+    "UsuarioId": "USR-04",
+    "TipoClase": "Zumba",
+    "Fecha": "2026-11-15T11:15:44.782833-06:00"
+  },
+  {
+    "Id": "ASI-03",
+    "UsuarioId": "USR-06",
+    "TipoClase": "Spinning",
+    "Fecha": "2026-11-14T11:15:44.7828338-06:00"
+  },
+  {
+    "Id": "ASI-04",
+    "UsuarioId": "USR-08",
+    "TipoClase": "Hora abierta",
+    "Fecha": "2026-11-13T11:15:44.7828342-06:00"
+  },
+  {
+    "Id": "ASI-05",
+    "UsuarioId": "USR-10",
+    "TipoClase": "Yoga",
+    "Fecha": "2026-11-12T11:15:44.7828345-06:00"
+  },
+  {
+    "Id": "ASI-06",
+    "UsuarioId": "USR-12",
+    "TipoClase": "Crossfit",
+    "Fecha": "2026-11-11T11:15:44.7828362-06:00"
+  },
+  {
+    "Id": "ASI-07",
+    "UsuarioId": "USR-14",
+    "TipoClase": "Zumba",
+    "Fecha": "2026-11-17T11:15:44.7828365-06:00"
+  },
+  {
+    "Id": "ASI-08",
+    "UsuarioId": "USR-16",
+    "TipoClase": "Spinning",
+    "Fecha": "2026-11-16T11:15:44.7828367-06:00"
+  },
+  {
+    "Id": "ASI-09",
+    "UsuarioId": "USR-18",
+    "TipoClase": "Hora abierta",
+    "Fecha": "2026-11-15T11:15:44.7828369-06:00"
+  },
+  {
+    "Id": "ASI-10",
+    "UsuarioId": "USR-20",
+    "TipoClase": "Yoga",
+    "Fecha": "2026-11-14T11:15:44.7828373-06:00"
+  },
+  {
+    "Id": "ASI-11",
+    "UsuarioId": "USR-22",
+    "TipoClase": "Crossfit",
+    "Fecha": "2026-11-13T11:15:44.7828376-06:00"
+  },
+  {
+    "Id": "ASI-12",
+    "UsuarioId": "USR-24",
+    "TipoClase": "Zumba",
+    "Fecha": "2026-11-12T11:15:44.7828378-06:00"
+  },
+  {
+    "Id": "ASI-13",
+    "UsuarioId": "USR-26",
+    "TipoClase": "Spinning",
+    "Fecha": "2026-11-11T11:15:44.782838-06:00"
+  },
+  {
+    "Id": "ASI-14",
+    "UsuarioId": "USR-28",
+    "TipoClase": "Hora abierta",
+    "Fecha": "2026-11-17T11:15:44.7828382-06:00"
+  },
+  {
+    "Id": "ASI-15",
+    "UsuarioId": "USR-30",
+    "TipoClase": "Yoga",
+    "Fecha": "2026-11-16T11:15:44.7828384-06:00"
+  },
+  {
+    "Id": "ASI-16",
+    "UsuarioId": "USR-32",
+    "TipoClase": "Crossfit",
+    "Fecha": "2026-11-15T11:15:44.7828386-06:00"
+  },
+  {
+    "Id": "ASI-17",
+    "UsuarioId": "USR-34",
+    "TipoClase": "Zumba",
+    "Fecha": "2026-11-14T11:15:44.7828388-06:00"
+  },
+  {
+    "Id": "ASI-18",
+    "UsuarioId": "USR-36",
+    "TipoClase": "Spinning",
+    "Fecha": "2026-11-13T11:15:44.7828392-06:00"
+  },
+  {
+    "Id": "ASI-19",
+    "UsuarioId": "USR-38",
+    "TipoClase": "Hora abierta",
+    "Fecha": "2026-11-12T11:15:44.7828394-06:00"
+  },
+  {
+    "Id": "ASI-20",
+    "UsuarioId": "USR-40",
+    "TipoClase": "Yoga",
+    "Fecha": "2026-11-11T11:15:44.7828396-06:00"
+  }
+]
