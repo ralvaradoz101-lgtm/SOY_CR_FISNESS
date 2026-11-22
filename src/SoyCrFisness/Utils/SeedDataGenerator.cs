@@ -13,18 +13,12 @@ namespace SoyCrFisness.Utils
                 return;
             }
 
-
-
-
             var entrenadores = CrearEntrenadores();
             var usuarios = CrearUsuarios();
             var rutinas = CrearRutinas();
             var asistencias = CrearAsistencias();
             var insignias = CrearInsignias();
             var notificaciones = CrearNotificaciones();
-
-
-
 
 
 
@@ -168,24 +162,36 @@ namespace SoyCrFisness.Utils
         private static List<Asistencia> CrearAsistencias()
         {
             var lista = new List<Asistencia>();
-            string[] clases = ["Yoga", "Crossfit", "Zumba", "Spinning", "Hora abierta"];
 
-            for (int i = 1; i <= 20; i++)
+            string[] clases =
+            [
+                "Yoga",
+        "Crossfit",
+        "Zumba",
+        "Spinning",
+        "Hora abierta"
+            ];
+
+            int numeroId = 1;
+
+            for (int usuario = 1; usuario <= 40; usuario++)
             {
-                lista.Add(new Asistencia
+                for (int visita = 0; visita < 2; visita++)
                 {
-                    Id = $"ASI-{i:00}",
-                    UsuarioId = $"USR-{i * 2:00}",
-                    TipoClase = clases[i % clases.Length],
-                    Fecha = DateTime.Now.AddDays(-(i % 7))
-                });
+                    lista.Add(new Asistencia
+                    {
+                        Id = $"ASI-{numeroId:000}",
+                        UsuarioId = $"USR-{usuario:00}",
+                        TipoClase = clases[(usuario + visita - 1) % clases.Length],
+                        Fecha = DateTime.Now.AddDays(-(usuario + visita))
+                    });
+
+                    numeroId++;
+                }
             }
 
             return lista;
         }
-
-
-
         private static List<Insignia> CrearInsignias()
         {
             return
