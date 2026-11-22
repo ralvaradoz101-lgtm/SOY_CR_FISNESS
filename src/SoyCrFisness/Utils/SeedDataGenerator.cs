@@ -194,16 +194,29 @@ namespace SoyCrFisness.Utils
         }
         private static List<Insignia> CrearInsignias()
         {
-            return
-            [
-                new() { Id = "INS-01", UsuarioId = "USR-15", Titulo = "Capitán de Hierro", Descripcion = "5 visitas seguidas en la semana", EsDeVerguenza = false, FechaObtencion = DateTime.Now.AddDays(-2) },
-                new() { Id = "INS-02", UsuarioId = "USR-21", Titulo = "Muralla Rojinegra", Descripcion = "Entrenó antes de las 7 AM", EsDeVerguenza = false, FechaObtencion = DateTime.Now.AddDays(-4) },
-                new() { Id = "INS-03", UsuarioId = "USR-03", Titulo = "Modo Sofá", Descripcion = "Solo 1 visita en 15 días", EsDeVerguenza = true, FechaObtencion = DateTime.Now.AddDays(-1) },
-                new() { Id = "INS-04", UsuarioId = "USR-33", Titulo = "Reina del Spinning", Descripcion = "Completó 4 clases seguidas", EsDeVerguenza = false, FechaObtencion = DateTime.Now.AddDays(-3) },
-                new() { Id = "INS-05", UsuarioId = "USR-25", Titulo = "Fantasma del CAR", Descripcion = "Pagó el mes y no vino", EsDeVerguenza = true, FechaObtencion = DateTime.Now }
-            ];
-        }
+            var lista = new List<Insignia>();
 
+            for (int usuario = 1; usuario <= 40; usuario++)
+            {
+                bool esDeVerguenza = usuario % 4 == 0;
+
+                lista.Add(new Insignia
+                {
+                    Id = $"INS-{usuario:00}",
+                    UsuarioId = $"USR-{usuario:00}",
+                    Titulo = esDeVerguenza
+                        ? "Modo Sofá"
+                        : "Constancia de Hierro",
+                    Descripcion = esDeVerguenza
+                        ? "Insignia negativa de demostración"
+                        : "Insignia positiva de demostración",
+                    EsDeVerguenza = esDeVerguenza,
+                    FechaObtencion = DateTime.Now.AddDays(-usuario)
+                });
+            }
+
+            return lista;
+        }
         private static List<Notificacion> CrearNotificaciones()
         {
             return
