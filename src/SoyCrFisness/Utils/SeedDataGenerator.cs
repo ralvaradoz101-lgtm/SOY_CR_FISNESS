@@ -1,15 +1,6 @@
 ﻿using SoyCrFisness.Models;
 using SoyCrFisness.Repositories;
 
-
-
-
-
-
-
-
-
-
 namespace SoyCrFisness.Utils
 {
     public static class SeedDataGenerator
@@ -61,12 +52,6 @@ namespace SoyCrFisness.Utils
         }
 
 
-
-
-
-
-
-
         private static List<Usuario> CrearUsuarios()
         {
             string[] hombres =
@@ -82,13 +67,6 @@ namespace SoyCrFisness.Utils
 
 
 
-
-
-
-
-
-
-
             string[] mujeres =
             [
                 "Noelia Bermúdez", "Dayanna Pérez", "Melissa Vargas", "Lixy Rodríguez", "Fabiola Villalobos",
@@ -96,14 +74,6 @@ namespace SoyCrFisness.Utils
                 "Valery Sandoval", "Keylin Gómez", "Alexandra Pinell", "Emilie Valenciano", "Kenia Rangel",
                 "Mariela Campos", "Viviana Chinchilla", "Sofía Varela", "Natalia Mills", "Ányela Mesén"
             ];
-
-
-
-
-
-
-
-
 
 
 
@@ -151,21 +121,45 @@ namespace SoyCrFisness.Utils
         private static List<Rutina> CrearRutinas()
         {
             var lista = new List<Rutina>();
-            string[] nombresRutina = ["Full Body Inicio", "Tren Superior Fuerza", "Pierna y Glúteo", "Cardio HIIT", "Core y Resistencia"];
 
-            for (int i = 1; i <= 10; i++)
+            string[] nombres =
+            [
+                "Piernas",
+        "Pecho",
+        "Espalda",
+        "Cardio",
+        "Cuerpo completo"
+            ];
+
+            string[] ejercicios =
+            [
+                "Sentadillas 4x12, Prensa 3x12",
+        "Press banca 4x10, Flexiones 3x12",
+        "Remo 4x12, Jalones 3x10",
+        "Caminadora 20 minutos, Bicicleta 15 minutos",
+        "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s"
+            ];
+
+            int numeroId = 1;
+
+            for (int usuario = 1; usuario <= 40; usuario++)
             {
-                lista.Add(new Rutina
+                for (int rutina = 0; rutina < 5; rutina++)
                 {
-                    Id = $"RUT-{i:00}",
-                    UsuarioId = $"USR-{i:00}",
-                    EntrenadorId = $"ENT-{(i % 5) + 1:00}",
-                    Nombre = nombresRutina[i % nombresRutina.Length],
-                    Ejercicios = "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
-                    PesoCargaKg = 25 + (i * 5),
-                    FechaAsignacion = DateTime.Now.AddDays(-15),
-                    FechaExpiracion = DateTime.Now.AddDays(i <= 3 ? 2 : 15)
-                });
+                    lista.Add(new Rutina
+                    {
+                        Id = $"RUT-{numeroId:000}",
+                        UsuarioId = $"USR-{usuario:00}",
+                        EntrenadorId = $"ENT-{rutina + 1:00}",
+                        Nombre = nombres[rutina],
+                        Ejercicios = ejercicios[rutina],
+                        PesoCargaKg = 20 + (rutina * 5),
+                        FechaAsignacion = DateTime.Now.AddDays(-15),
+                        FechaExpiracion = DateTime.Now.AddDays(15)
+                    });
+
+                    numeroId++;
+                }
             }
 
             return lista;
@@ -189,14 +183,6 @@ namespace SoyCrFisness.Utils
 
             return lista;
         }
-
-
-
-
-
-
-
-
 
 
 
