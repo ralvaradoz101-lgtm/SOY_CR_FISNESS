@@ -23,6 +23,33 @@ namespace SoyCrFisness.Views
 
         private readonly ListBox _lstNotificaciones = new() { Left = 20, Top = 275, Width = 740, Height = 165 };
 
+        private readonly ListBox _lstRutinas = new()
+        {
+            Left = 20,
+            Top = 480,
+            Width = 740,
+            Height = 130
+        };
+
+        private readonly Button _btnEditarRutina = new()
+        {
+            Left = 20,
+            Top = 620,
+            Width = 170,
+            Height = 30,
+            Text = "Editar Rutina"
+        };
+
+        private readonly Button _btnEliminarRutina = new()
+        {
+            Left = 200,
+            Top = 620,
+            Width = 170,
+            Height = 30,
+            Text = "Eliminar Rutina"
+        };
+
+
         public EntrenadorDashboardForm(
             Entrenador entrenador,
             AuthController authController,
@@ -40,7 +67,7 @@ namespace SoyCrFisness.Views
         {
             Text = $"SoyCrFisness - Panel de Entrenador ({_entrenador.Nombre})";
             Width = 800;
-            Height = 495;
+            Height = 680;
             StartPosition = FormStartPosition.CenterScreen;
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
@@ -60,17 +87,35 @@ namespace SoyCrFisness.Views
             var lblInsignia = new Label { Left = 400, Top = 116, Width = 360, Text = "Otorgar Insignia (Logro o Vergüenza):" };
             var lblAlertas = new Label { Left = 20, Top = 252, Width = 740, Text = "Timeline de Alertas del Entrenador:" };
 
+
+            _cmbSocios.SelectedIndexChanged += (sender, e) => CargarRutinasDelSocio();
             _btnAsignarRutina.Click += AlHacerClicAsignarRutina;
             _btnOtorgarInsignia.Click += AlHacerClicOtorgarInsignia;
+
+
+
+
+            var lblListaRutinas = new Label
+            {
+                Left = 20,
+                Top = 455,
+                Width = 740,
+                Text = "Rutinas asignadas al socio seleccionado:"
+            };
 
             Controls.AddRange(
             [
                 lblTitulo, lblSocio, _cmbSocios,
                 lblRutina, _txtNombreRutina, _txtCargaKg, _txtEjercicios, _btnAsignarRutina,
                 lblInsignia, _txtTituloInsignia, _chkVerguenza, _txtDescInsignia, _btnOtorgarInsignia,
-                lblAlertas, _lstNotificaciones
+                lblAlertas, _lstNotificaciones,
+                lblListaRutinas, _lstRutinas  
             ]);
         }
+
+
+
+
 
         private void CargarSociosYAlertas()
         {
@@ -97,6 +142,36 @@ namespace SoyCrFisness.Views
                 _lstNotificaciones.Items.Add("Sin alertas registradas para este entrenador.");
             }
         }
+
+
+        private void CargarRutinasDelSocio()
+        {
+            _lstRutinas.Items.Clear();
+
+            string usuarioId = ObtenerUsuarioIdSeleccionado();
+
+            if (string.IsNullOrEmpty(usuarioId))
+            {
+                return;
+            }
+
+            var rutinas = _gimnasioController.ObtenerRutinasPorUsuario(usuarioId);
+
+            foreach (var rutina in rutinas)
+            {
+                _lstRutinas.Items.Add(
+                    $"{rutina.Id} | {rutina.Nombre} | " +
+                    $"{rutina.PesoCargaKg:F1} kg | " +
+                    $"Vence: {rutina.FechaExpiracion:dd/MM/yyyy}"
+                );
+            }
+
+            if (_lstRutinas.Items.Count == 0)
+            {
+                _lstRutinas.Items.Add("Este socio no tiene rutinas asignadas.");
+            }
+        }
+
 
         private string ObtenerUsuarioIdSeleccionado()
         {
