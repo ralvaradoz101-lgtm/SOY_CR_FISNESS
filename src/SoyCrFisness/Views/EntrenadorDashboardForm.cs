@@ -31,6 +31,11 @@ namespace SoyCrFisness.Views
             Height = 130
         };
 
+
+        private string _rutinaSeleccionadaId = "";
+
+
+
         private readonly Button _btnEditarRutina = new()
         {
             Left = 20,
@@ -89,7 +94,40 @@ namespace SoyCrFisness.Views
 
 
             _cmbSocios.SelectedIndexChanged += (sender, e) => CargarRutinasDelSocio();
+
+            _lstRutinas.SelectedIndexChanged += (sender, e) =>
+            {
+                string texto = _lstRutinas.SelectedItem?.ToString() ?? "";
+
+                _rutinaSeleccionadaId = texto.Contains(" | ")
+                    ? texto.Split(" | ")[0]
+                    : "";
+
+
+
+
+                if (!string.IsNullOrEmpty(_rutinaSeleccionadaId))
+                {
+                    string usuarioId = ObtenerUsuarioIdSeleccionado();
+
+                    var rutina = _gimnasioController
+                        .ObtenerRutinasPorUsuario(usuarioId)
+                        .FirstOrDefault(r => r.Id == _rutinaSeleccionadaId);
+
+                    if (rutina != null)
+                    {
+                        _txtNombreRutina.Text = rutina.Nombre;
+                        _txtEjercicios.Text = rutina.Ejercicios;
+                        _txtCargaKg.Text = rutina.PesoCargaKg.ToString("F1");
+                    }
+                }
+
+            };
+
+
             _btnAsignarRutina.Click += AlHacerClicAsignarRutina;
+            _btnEditarRutina.Click += AlHacerClicEditarRutina;
+            _btnEliminarRutina.Click += AlHacerClicEliminarRutina;
             _btnOtorgarInsignia.Click += AlHacerClicOtorgarInsignia;
 
 
@@ -109,7 +147,8 @@ namespace SoyCrFisness.Views
                 lblRutina, _txtNombreRutina, _txtCargaKg, _txtEjercicios, _btnAsignarRutina,
                 lblInsignia, _txtTituloInsignia, _chkVerguenza, _txtDescInsignia, _btnOtorgarInsignia,
                 lblAlertas, _lstNotificaciones,
-                lblListaRutinas, _lstRutinas  
+                lblListaRutinas, _lstRutinas,
+                _btnEditarRutina, _btnEliminarRutina
             ]);
         }
 
@@ -179,6 +218,137 @@ namespace SoyCrFisness.Views
             int indiceGuion = texto.IndexOf(" - ", StringComparison.Ordinal);
             return indiceGuion > 0 ? texto[..indiceGuion] : string.Empty;
         }
+
+
+        private void AlHacerClicEliminarRutina(object? sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(_rutinaSeleccionadaId))
+            {
+                MessageBox.Show("Seleccione una rutina para eliminar.");
+                return;
+            }
+
+            var confirmacion = MessageBox.Show(
+                "¿Está seguro de eliminar esta rutina?",
+                "Confirmar eliminación",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning
+            );
+
+            if (confirmacion != DialogResult.Yes)
+            {
+                return;
+            }
+
+            bool eliminada = _gimnasioController.EliminarRutina(_rutinaSeleccionadaId);
+
+            if (eliminada)
+            {
+                _rutinaSeleccionadaId = "";
+                _txtNombreRutina.Clear();
+                _txtEjercicios.Clear();
+                _txtCargaKg.Clear();
+
+                CargarRutinasDelSocio();
+
+                MessageBox.Show("Rutina eliminada correctamente.");
+            }
+            else
+            {
+                MessageBox.Show("No se pudo eliminar la rutina.");
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        private void AlHacerClicEditarRutina(object? sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(_rutinaSeleccionadaId))
+            {
+                MessageBox.Show("Seleccione una rutina de la lista.");
+                return;
+            }
+
+            string usuarioId = ObtenerUsuarioIdSeleccionado();
+
+            var rutina = _gimnasioController
+                .ObtenerRutinasPorUsuario(usuarioId)
+                .FirstOrDefault(r => r.Id == _rutinaSeleccionadaId);
+
+            if (rutina == null)
+            {
+                MessageBox.Show("No se encontró la rutina seleccionada.");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(_txtNombreRutina.Text) ||
+                !double.TryParse(_txtCargaKg.Text, out double carga) ||
+                carga < 0)
+            {
+                MessageBox.Show("Ingrese un nombre y una carga válida.");
+                return;
+            }
+
+            rutina.Nombre = _txtNombreRutina.Text.Trim();
+            rutina.Ejercicios = _txtEjercicios.Text.Trim();
+            rutina.PesoCargaKg = carga;
+
+            bool editada = _gimnasioController.EditarRutina(rutina);
+
+            if (editada)
+            {
+                CargarRutinasDelSocio();
+                MessageBox.Show("Rutina actualizada correctamente.");
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         private void AlHacerClicAsignarRutina(object? sender, EventArgs e)
         {
