@@ -217,16 +217,44 @@ namespace SoyCrFisness.Utils
 
             return lista;
         }
+
+
+
+
+
         private static List<Notificacion> CrearNotificaciones()
         {
-            return
-            [
-                new() { Id = "NOT-01", DestinatarioId = "USR-01", Mensaje = "Tu rutina vence en 2 días. Solicita actualización.", Fecha = DateTime.Now.AddHours(-5), EsAlertaNegativa = true },
-                new() { Id = "NOT-02", DestinatarioId = "USR-15", Mensaje = "¡Ganaste la insignia Capitán de Hierro!", Fecha = DateTime.Now.AddDays(-2), EsAlertaNegativa = false },
-                new() { Id = "NOT-03", DestinatarioId = "ENT-01", Mensaje = "El usuario USR-01 tiene su rutina próxima a vencer.", Fecha = DateTime.Now.AddHours(-3), EsAlertaNegativa = true },
-                new() { Id = "NOT-04", DestinatarioId = "USR-03", Mensaje = "Alerta: Llevas pocas visitas esta semana.", Fecha = DateTime.Now.AddDays(-1), EsAlertaNegativa = true },
-                new() { Id = "NOT-05", DestinatarioId = "ENT-02", Mensaje = "Clase de resistencia grupal llena para mañana.", Fecha = DateTime.Now.AddHours(-1), EsAlertaNegativa = false }
-            ];
+            var lista = new List<Notificacion>();
+
+            for (int usuario = 1; usuario <= 40; usuario++)
+            {
+                bool esAlertaNegativa = usuario % 3 == 0;
+
+                lista.Add(new Notificacion
+                {
+                    Id = $"NOT-{usuario:00}",
+                    DestinatarioId = $"USR-{usuario:00}",
+                    Mensaje = esAlertaNegativa
+                        ? "Alerta: llevas pocas visitas esta semana."
+                        : "¡Continúa entrenando! Vas por buen camino.",
+                    Fecha = DateTime.Now.AddDays(-usuario),
+                    EsAlertaNegativa = esAlertaNegativa
+                });
+            }
+
+            for (int entrenador = 1; entrenador <= 5; entrenador++)
+            {
+                lista.Add(new Notificacion
+                {
+                    Id = $"NOT-{40 + entrenador:00}",
+                    DestinatarioId = $"ENT-{entrenador:00}",
+                    Mensaje = "Revisa el seguimiento de tus usuarios asignados.",
+                    Fecha = DateTime.Now.AddHours(-entrenador),
+                    EsAlertaNegativa = false
+                });
+            }
+
+            return lista;
         }
     }
 }
