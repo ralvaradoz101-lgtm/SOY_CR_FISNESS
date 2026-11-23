@@ -69,7 +69,9 @@ namespace SoyCrFisness.Views
         private void CargarDatos()
         {
             _lstRutinas.Items.Clear();
-            foreach (var r in _gimnasioController.ObtenerRutinasPorUsuario(_usuario.Id))
+            foreach (var r in _gimnasioController.ObtenerRutinasPorUsuario(_usuario.Id)
+                .OrderByDescending(r => r.FechaAsignacion)
+                 .Take(5))
             {
                 _lstRutinas.Items.Add($"[{r.Id}] {r.Nombre} - Carga: {r.PesoCargaKg} kg (Vence: {r.FechaExpiracion:dd/MM/yyyy})");
             }

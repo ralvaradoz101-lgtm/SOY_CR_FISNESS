@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "SoyCrFisness": {
+      "commandName": "Project"
+    },
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\dotnet\\dotnet.exe",
+      "commandLineArgs": "\"C:\\PROJEC U\\PROY#1 ORG-ARCH\\SOY_CR_FISNESS\\src\\SoyCrFisness\\bin\\Debug\\net10.0-windows\\SoyCrFisness.dll\"",
+      "workingDirectory": "C:\\PROJEC U\\PROY#1 ORG-ARCH\\SOY_CR_FISNESS\\src\\SoyCrFisness\\bin\\Debug\\net10.0-windows"
+    }
+  }
+}
