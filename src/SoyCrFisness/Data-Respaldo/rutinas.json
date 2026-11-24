@@ -1,102 +1,2002 @@
 [
   {
-    "Id": "RUT-01",
+    "Id": "RUT-001",
+    "UsuarioId": "USR-01",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6735261-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746191-06:00"
+  },
+  {
+    "Id": "RUT-002",
     "UsuarioId": "USR-01",
     "EntrenadorId": "ENT-02",
-    "Nombre": "Tren Superior Fuerza",
-    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
-    "PesoCargaKg": 30,
-    "FechaAsignacion": "2026-11-02T11:15:44.7812937-06:00",
-    "FechaExpiracion": "2026-11-19T11:15:44.7824111-06:00"
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746633-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746636-06:00"
   },
   {
-    "Id": "RUT-02",
+    "Id": "RUT-003",
+    "UsuarioId": "USR-01",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.674664-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674664-06:00"
+  },
+  {
+    "Id": "RUT-004",
+    "UsuarioId": "USR-01",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746644-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746644-06:00"
+  },
+  {
+    "Id": "RUT-005",
+    "UsuarioId": "USR-01",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746648-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746648-06:00"
+  },
+  {
+    "Id": "RUT-006",
+    "UsuarioId": "USR-02",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746659-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746659-06:00"
+  },
+  {
+    "Id": "RUT-007",
+    "UsuarioId": "USR-02",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746663-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746663-06:00"
+  },
+  {
+    "Id": "RUT-008",
     "UsuarioId": "USR-02",
     "EntrenadorId": "ENT-03",
-    "Nombre": "Pierna y Gl\u00FAteo",
-    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
-    "PesoCargaKg": 35,
-    "FechaAsignacion": "2026-11-02T11:15:44.782459-06:00",
-    "FechaExpiracion": "2026-11-19T11:15:44.7824597-06:00"
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746666-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746667-06:00"
   },
   {
-    "Id": "RUT-03",
+    "Id": "RUT-009",
+    "UsuarioId": "USR-02",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.674667-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674667-06:00"
+  },
+  {
+    "Id": "RUT-010",
+    "UsuarioId": "USR-02",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746676-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746676-06:00"
+  },
+  {
+    "Id": "RUT-011",
+    "UsuarioId": "USR-03",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.674668-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674668-06:00"
+  },
+  {
+    "Id": "RUT-012",
+    "UsuarioId": "USR-03",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746683-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746684-06:00"
+  },
+  {
+    "Id": "RUT-013",
+    "UsuarioId": "USR-03",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746687-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746687-06:00"
+  },
+  {
+    "Id": "RUT-014",
     "UsuarioId": "USR-03",
     "EntrenadorId": "ENT-04",
-    "Nombre": "Cardio HIIT",
-    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
-    "PesoCargaKg": 40,
-    "FechaAsignacion": "2026-11-02T11:15:44.7824603-06:00",
-    "FechaExpiracion": "2026-11-19T11:15:44.7824604-06:00"
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.674669-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746691-06:00"
   },
   {
-    "Id": "RUT-04",
+    "Id": "RUT-015",
+    "UsuarioId": "USR-03",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746694-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746702-06:00"
+  },
+  {
+    "Id": "RUT-016",
+    "UsuarioId": "USR-04",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746706-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746706-06:00"
+  },
+  {
+    "Id": "RUT-017",
+    "UsuarioId": "USR-04",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746709-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674671-06:00"
+  },
+  {
+    "Id": "RUT-018",
+    "UsuarioId": "USR-04",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746714-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746714-06:00"
+  },
+  {
+    "Id": "RUT-019",
+    "UsuarioId": "USR-04",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746718-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746718-06:00"
+  },
+  {
+    "Id": "RUT-020",
     "UsuarioId": "USR-04",
     "EntrenadorId": "ENT-05",
-    "Nombre": "Core y Resistencia",
-    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
-    "PesoCargaKg": 45,
-    "FechaAsignacion": "2026-11-02T11:15:44.7824609-06:00",
-    "FechaExpiracion": "2026-12-02T11:15:44.782461-06:00"
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746721-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746722-06:00"
   },
   {
-    "Id": "RUT-05",
+    "Id": "RUT-021",
     "UsuarioId": "USR-05",
     "EntrenadorId": "ENT-01",
-    "Nombre": "Full Body Inicio",
-    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
-    "PesoCargaKg": 50,
-    "FechaAsignacion": "2026-11-02T11:15:44.7824614-06:00",
-    "FechaExpiracion": "2026-12-02T11:15:44.7824615-06:00"
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746725-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746725-06:00"
   },
   {
-    "Id": "RUT-06",
+    "Id": "RUT-022",
+    "UsuarioId": "USR-05",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746728-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746729-06:00"
+  },
+  {
+    "Id": "RUT-023",
+    "UsuarioId": "USR-05",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746732-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746732-06:00"
+  },
+  {
+    "Id": "RUT-024",
+    "UsuarioId": "USR-05",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746735-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746736-06:00"
+  },
+  {
+    "Id": "RUT-025",
+    "UsuarioId": "USR-05",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746739-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746739-06:00"
+  },
+  {
+    "Id": "RUT-026",
+    "UsuarioId": "USR-06",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746742-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746743-06:00"
+  },
+  {
+    "Id": "RUT-027",
     "UsuarioId": "USR-06",
     "EntrenadorId": "ENT-02",
-    "Nombre": "Tren Superior Fuerza",
-    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
-    "PesoCargaKg": 55,
-    "FechaAsignacion": "2026-11-02T11:15:44.7824628-06:00",
-    "FechaExpiracion": "2026-12-02T11:15:44.7824629-06:00"
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746746-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746746-06:00"
   },
   {
-    "Id": "RUT-07",
+    "Id": "RUT-028",
+    "UsuarioId": "USR-06",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746749-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674675-06:00"
+  },
+  {
+    "Id": "RUT-029",
+    "UsuarioId": "USR-06",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746753-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746753-06:00"
+  },
+  {
+    "Id": "RUT-030",
+    "UsuarioId": "USR-06",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746756-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746757-06:00"
+  },
+  {
+    "Id": "RUT-031",
+    "UsuarioId": "USR-07",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.674676-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674676-06:00"
+  },
+  {
+    "Id": "RUT-032",
+    "UsuarioId": "USR-07",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746763-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746764-06:00"
+  },
+  {
+    "Id": "RUT-033",
     "UsuarioId": "USR-07",
     "EntrenadorId": "ENT-03",
-    "Nombre": "Pierna y Gl\u00FAteo",
-    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
-    "PesoCargaKg": 60,
-    "FechaAsignacion": "2026-11-02T11:15:44.7824633-06:00",
-    "FechaExpiracion": "2026-12-02T11:15:44.7824633-06:00"
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746767-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746767-06:00"
   },
   {
-    "Id": "RUT-08",
+    "Id": "RUT-034",
+    "UsuarioId": "USR-07",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746836-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746836-06:00"
+  },
+  {
+    "Id": "RUT-035",
+    "UsuarioId": "USR-07",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.674684-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674684-06:00"
+  },
+  {
+    "Id": "RUT-036",
+    "UsuarioId": "USR-08",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746844-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746844-06:00"
+  },
+  {
+    "Id": "RUT-037",
+    "UsuarioId": "USR-08",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746848-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746848-06:00"
+  },
+  {
+    "Id": "RUT-038",
+    "UsuarioId": "USR-08",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746852-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746852-06:00"
+  },
+  {
+    "Id": "RUT-039",
     "UsuarioId": "USR-08",
     "EntrenadorId": "ENT-04",
-    "Nombre": "Cardio HIIT",
-    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
-    "PesoCargaKg": 65,
-    "FechaAsignacion": "2026-11-02T11:15:44.7824636-06:00",
-    "FechaExpiracion": "2026-12-02T11:15:44.7824636-06:00"
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746855-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746855-06:00"
   },
   {
-    "Id": "RUT-09",
+    "Id": "RUT-040",
+    "UsuarioId": "USR-08",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746859-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746859-06:00"
+  },
+  {
+    "Id": "RUT-041",
+    "UsuarioId": "USR-09",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746862-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746863-06:00"
+  },
+  {
+    "Id": "RUT-042",
+    "UsuarioId": "USR-09",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746866-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746866-06:00"
+  },
+  {
+    "Id": "RUT-043",
+    "UsuarioId": "USR-09",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.674687-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674687-06:00"
+  },
+  {
+    "Id": "RUT-044",
+    "UsuarioId": "USR-09",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746873-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746873-06:00"
+  },
+  {
+    "Id": "RUT-045",
     "UsuarioId": "USR-09",
     "EntrenadorId": "ENT-05",
-    "Nombre": "Core y Resistencia",
-    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
-    "PesoCargaKg": 70,
-    "FechaAsignacion": "2026-11-02T11:15:44.7824639-06:00",
-    "FechaExpiracion": "2026-12-02T11:15:44.782464-06:00"
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746877-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746877-06:00"
   },
   {
-    "Id": "RUT-10",
+    "Id": "RUT-046",
     "UsuarioId": "USR-10",
     "EntrenadorId": "ENT-01",
-    "Nombre": "Full Body Inicio",
-    "Ejercicios": "Sentadillas 4x12, Press Banca 4x10, Remo 3x12, Plancha 3x45s",
-    "PesoCargaKg": 75,
-    "FechaAsignacion": "2026-11-02T11:15:44.7824652-06:00",
-    "FechaExpiracion": "2026-12-02T11:15:44.7824652-06:00"
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746881-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746881-06:00"
+  },
+  {
+    "Id": "RUT-047",
+    "UsuarioId": "USR-10",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746885-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746885-06:00"
+  },
+  {
+    "Id": "RUT-048",
+    "UsuarioId": "USR-10",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746888-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746888-06:00"
+  },
+  {
+    "Id": "RUT-049",
+    "UsuarioId": "USR-10",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746892-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746892-06:00"
+  },
+  {
+    "Id": "RUT-050",
+    "UsuarioId": "USR-10",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746895-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746896-06:00"
+  },
+  {
+    "Id": "RUT-051",
+    "UsuarioId": "USR-11",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746899-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.67469-06:00"
+  },
+  {
+    "Id": "RUT-052",
+    "UsuarioId": "USR-11",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746903-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746903-06:00"
+  },
+  {
+    "Id": "RUT-053",
+    "UsuarioId": "USR-11",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746906-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746907-06:00"
+  },
+  {
+    "Id": "RUT-054",
+    "UsuarioId": "USR-11",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.674691-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674691-06:00"
+  },
+  {
+    "Id": "RUT-055",
+    "UsuarioId": "USR-11",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746913-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746914-06:00"
+  },
+  {
+    "Id": "RUT-056",
+    "UsuarioId": "USR-12",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746917-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746917-06:00"
+  },
+  {
+    "Id": "RUT-057",
+    "UsuarioId": "USR-12",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.674692-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746921-06:00"
+  },
+  {
+    "Id": "RUT-058",
+    "UsuarioId": "USR-12",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746924-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746924-06:00"
+  },
+  {
+    "Id": "RUT-059",
+    "UsuarioId": "USR-12",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746927-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746928-06:00"
+  },
+  {
+    "Id": "RUT-060",
+    "UsuarioId": "USR-12",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746931-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746931-06:00"
+  },
+  {
+    "Id": "RUT-061",
+    "UsuarioId": "USR-13",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746935-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746935-06:00"
+  },
+  {
+    "Id": "RUT-062",
+    "UsuarioId": "USR-13",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746938-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746939-06:00"
+  },
+  {
+    "Id": "RUT-063",
+    "UsuarioId": "USR-13",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746942-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746942-06:00"
+  },
+  {
+    "Id": "RUT-064",
+    "UsuarioId": "USR-13",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746945-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746945-06:00"
+  },
+  {
+    "Id": "RUT-065",
+    "UsuarioId": "USR-13",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746949-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746949-06:00"
+  },
+  {
+    "Id": "RUT-066",
+    "UsuarioId": "USR-14",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746954-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746954-06:00"
+  },
+  {
+    "Id": "RUT-067",
+    "UsuarioId": "USR-14",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746957-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746957-06:00"
+  },
+  {
+    "Id": "RUT-068",
+    "UsuarioId": "USR-14",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6746999-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6746999-06:00"
+  },
+  {
+    "Id": "RUT-069",
+    "UsuarioId": "USR-14",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747003-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747004-06:00"
+  },
+  {
+    "Id": "RUT-070",
+    "UsuarioId": "USR-14",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747007-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747007-06:00"
+  },
+  {
+    "Id": "RUT-071",
+    "UsuarioId": "USR-15",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747011-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747012-06:00"
+  },
+  {
+    "Id": "RUT-072",
+    "UsuarioId": "USR-15",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747015-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747015-06:00"
+  },
+  {
+    "Id": "RUT-073",
+    "UsuarioId": "USR-15",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747018-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747019-06:00"
+  },
+  {
+    "Id": "RUT-074",
+    "UsuarioId": "USR-15",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747022-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747022-06:00"
+  },
+  {
+    "Id": "RUT-075",
+    "UsuarioId": "USR-15",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747025-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747026-06:00"
+  },
+  {
+    "Id": "RUT-076",
+    "UsuarioId": "USR-16",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747029-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674703-06:00"
+  },
+  {
+    "Id": "RUT-077",
+    "UsuarioId": "USR-16",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747033-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747033-06:00"
+  },
+  {
+    "Id": "RUT-078",
+    "UsuarioId": "USR-16",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747036-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747037-06:00"
+  },
+  {
+    "Id": "RUT-079",
+    "UsuarioId": "USR-16",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.674704-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674704-06:00"
+  },
+  {
+    "Id": "RUT-080",
+    "UsuarioId": "USR-16",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747043-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747044-06:00"
+  },
+  {
+    "Id": "RUT-081",
+    "UsuarioId": "USR-17",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747047-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747047-06:00"
+  },
+  {
+    "Id": "RUT-082",
+    "UsuarioId": "USR-17",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747051-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747051-06:00"
+  },
+  {
+    "Id": "RUT-083",
+    "UsuarioId": "USR-17",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747054-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747054-06:00"
+  },
+  {
+    "Id": "RUT-084",
+    "UsuarioId": "USR-17",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747057-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747058-06:00"
+  },
+  {
+    "Id": "RUT-085",
+    "UsuarioId": "USR-17",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747061-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747061-06:00"
+  },
+  {
+    "Id": "RUT-086",
+    "UsuarioId": "USR-18",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747065-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747065-06:00"
+  },
+  {
+    "Id": "RUT-087",
+    "UsuarioId": "USR-18",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747068-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747068-06:00"
+  },
+  {
+    "Id": "RUT-088",
+    "UsuarioId": "USR-18",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747072-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747072-06:00"
+  },
+  {
+    "Id": "RUT-089",
+    "UsuarioId": "USR-18",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747075-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747075-06:00"
+  },
+  {
+    "Id": "RUT-090",
+    "UsuarioId": "USR-18",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747079-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747079-06:00"
+  },
+  {
+    "Id": "RUT-091",
+    "UsuarioId": "USR-19",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747082-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747083-06:00"
+  },
+  {
+    "Id": "RUT-092",
+    "UsuarioId": "USR-19",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747086-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747086-06:00"
+  },
+  {
+    "Id": "RUT-093",
+    "UsuarioId": "USR-19",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747089-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674709-06:00"
+  },
+  {
+    "Id": "RUT-094",
+    "UsuarioId": "USR-19",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747093-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747093-06:00"
+  },
+  {
+    "Id": "RUT-095",
+    "UsuarioId": "USR-19",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747096-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747097-06:00"
+  },
+  {
+    "Id": "RUT-096",
+    "UsuarioId": "USR-20",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.67471-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.67471-06:00"
+  },
+  {
+    "Id": "RUT-097",
+    "UsuarioId": "USR-20",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747104-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747104-06:00"
+  },
+  {
+    "Id": "RUT-098",
+    "UsuarioId": "USR-20",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747107-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747108-06:00"
+  },
+  {
+    "Id": "RUT-099",
+    "UsuarioId": "USR-20",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747111-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747111-06:00"
+  },
+  {
+    "Id": "RUT-100",
+    "UsuarioId": "USR-20",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747118-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747118-06:00"
+  },
+  {
+    "Id": "RUT-101",
+    "UsuarioId": "USR-21",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747122-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747122-06:00"
+  },
+  {
+    "Id": "RUT-102",
+    "UsuarioId": "USR-21",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747126-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747126-06:00"
+  },
+  {
+    "Id": "RUT-103",
+    "UsuarioId": "USR-21",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747129-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747129-06:00"
+  },
+  {
+    "Id": "RUT-104",
+    "UsuarioId": "USR-21",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747133-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747133-06:00"
+  },
+  {
+    "Id": "RUT-105",
+    "UsuarioId": "USR-21",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747136-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747137-06:00"
+  },
+  {
+    "Id": "RUT-106",
+    "UsuarioId": "USR-22",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.674714-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674714-06:00"
+  },
+  {
+    "Id": "RUT-107",
+    "UsuarioId": "USR-22",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747143-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747144-06:00"
+  },
+  {
+    "Id": "RUT-108",
+    "UsuarioId": "USR-22",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747147-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747147-06:00"
+  },
+  {
+    "Id": "RUT-109",
+    "UsuarioId": "USR-22",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747173-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747173-06:00"
+  },
+  {
+    "Id": "RUT-110",
+    "UsuarioId": "USR-22",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747177-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747178-06:00"
+  },
+  {
+    "Id": "RUT-111",
+    "UsuarioId": "USR-23",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747181-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747182-06:00"
+  },
+  {
+    "Id": "RUT-112",
+    "UsuarioId": "USR-23",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747185-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747186-06:00"
+  },
+  {
+    "Id": "RUT-113",
+    "UsuarioId": "USR-23",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747189-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747189-06:00"
+  },
+  {
+    "Id": "RUT-114",
+    "UsuarioId": "USR-23",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747192-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747193-06:00"
+  },
+  {
+    "Id": "RUT-115",
+    "UsuarioId": "USR-23",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747196-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747196-06:00"
+  },
+  {
+    "Id": "RUT-116",
+    "UsuarioId": "USR-24",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.67472-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.67472-06:00"
+  },
+  {
+    "Id": "RUT-117",
+    "UsuarioId": "USR-24",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747203-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747204-06:00"
+  },
+  {
+    "Id": "RUT-118",
+    "UsuarioId": "USR-24",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747207-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747207-06:00"
+  },
+  {
+    "Id": "RUT-119",
+    "UsuarioId": "USR-24",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.674721-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747211-06:00"
+  },
+  {
+    "Id": "RUT-120",
+    "UsuarioId": "USR-24",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747214-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747214-06:00"
+  },
+  {
+    "Id": "RUT-121",
+    "UsuarioId": "USR-25",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747218-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747218-06:00"
+  },
+  {
+    "Id": "RUT-122",
+    "UsuarioId": "USR-25",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747221-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747222-06:00"
+  },
+  {
+    "Id": "RUT-123",
+    "UsuarioId": "USR-25",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747225-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747225-06:00"
+  },
+  {
+    "Id": "RUT-124",
+    "UsuarioId": "USR-25",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747228-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747229-06:00"
+  },
+  {
+    "Id": "RUT-125",
+    "UsuarioId": "USR-25",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747232-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747232-06:00"
+  },
+  {
+    "Id": "RUT-126",
+    "UsuarioId": "USR-26",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747236-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747236-06:00"
+  },
+  {
+    "Id": "RUT-127",
+    "UsuarioId": "USR-26",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747239-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747239-06:00"
+  },
+  {
+    "Id": "RUT-128",
+    "UsuarioId": "USR-26",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747243-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747243-06:00"
+  },
+  {
+    "Id": "RUT-129",
+    "UsuarioId": "USR-26",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747246-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747246-06:00"
+  },
+  {
+    "Id": "RUT-130",
+    "UsuarioId": "USR-26",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747251-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747251-06:00"
+  },
+  {
+    "Id": "RUT-131",
+    "UsuarioId": "USR-27",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747255-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747255-06:00"
+  },
+  {
+    "Id": "RUT-132",
+    "UsuarioId": "USR-27",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747258-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747258-06:00"
+  },
+  {
+    "Id": "RUT-133",
+    "UsuarioId": "USR-27",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747262-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747262-06:00"
+  },
+  {
+    "Id": "RUT-134",
+    "UsuarioId": "USR-27",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747265-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747265-06:00"
+  },
+  {
+    "Id": "RUT-135",
+    "UsuarioId": "USR-27",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747269-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747269-06:00"
+  },
+  {
+    "Id": "RUT-136",
+    "UsuarioId": "USR-28",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747272-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747273-06:00"
+  },
+  {
+    "Id": "RUT-137",
+    "UsuarioId": "USR-28",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747276-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747276-06:00"
+  },
+  {
+    "Id": "RUT-138",
+    "UsuarioId": "USR-28",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747333-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747333-06:00"
+  },
+  {
+    "Id": "RUT-139",
+    "UsuarioId": "USR-28",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747337-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747338-06:00"
+  },
+  {
+    "Id": "RUT-140",
+    "UsuarioId": "USR-28",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747341-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747342-06:00"
+  },
+  {
+    "Id": "RUT-141",
+    "UsuarioId": "USR-29",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747345-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747346-06:00"
+  },
+  {
+    "Id": "RUT-142",
+    "UsuarioId": "USR-29",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747349-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674735-06:00"
+  },
+  {
+    "Id": "RUT-143",
+    "UsuarioId": "USR-29",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747353-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747353-06:00"
+  },
+  {
+    "Id": "RUT-144",
+    "UsuarioId": "USR-29",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747356-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747357-06:00"
+  },
+  {
+    "Id": "RUT-145",
+    "UsuarioId": "USR-29",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.674736-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674736-06:00"
+  },
+  {
+    "Id": "RUT-146",
+    "UsuarioId": "USR-30",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747364-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747364-06:00"
+  },
+  {
+    "Id": "RUT-147",
+    "UsuarioId": "USR-30",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747367-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747368-06:00"
+  },
+  {
+    "Id": "RUT-148",
+    "UsuarioId": "USR-30",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747371-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747371-06:00"
+  },
+  {
+    "Id": "RUT-149",
+    "UsuarioId": "USR-30",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747375-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747375-06:00"
+  },
+  {
+    "Id": "RUT-150",
+    "UsuarioId": "USR-30",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747378-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747379-06:00"
+  },
+  {
+    "Id": "RUT-151",
+    "UsuarioId": "USR-31",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747382-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747382-06:00"
+  },
+  {
+    "Id": "RUT-152",
+    "UsuarioId": "USR-31",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747386-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747386-06:00"
+  },
+  {
+    "Id": "RUT-153",
+    "UsuarioId": "USR-31",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747389-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674739-06:00"
+  },
+  {
+    "Id": "RUT-154",
+    "UsuarioId": "USR-31",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747393-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747393-06:00"
+  },
+  {
+    "Id": "RUT-155",
+    "UsuarioId": "USR-31",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747396-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747397-06:00"
+  },
+  {
+    "Id": "RUT-156",
+    "UsuarioId": "USR-32",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.67474-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.67474-06:00"
+  },
+  {
+    "Id": "RUT-157",
+    "UsuarioId": "USR-32",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747403-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747404-06:00"
+  },
+  {
+    "Id": "RUT-158",
+    "UsuarioId": "USR-32",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747407-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747407-06:00"
+  },
+  {
+    "Id": "RUT-159",
+    "UsuarioId": "USR-32",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747411-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747411-06:00"
+  },
+  {
+    "Id": "RUT-160",
+    "UsuarioId": "USR-32",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747414-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747415-06:00"
+  },
+  {
+    "Id": "RUT-161",
+    "UsuarioId": "USR-33",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747418-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747418-06:00"
+  },
+  {
+    "Id": "RUT-162",
+    "UsuarioId": "USR-33",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747421-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747422-06:00"
+  },
+  {
+    "Id": "RUT-163",
+    "UsuarioId": "USR-33",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747425-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747425-06:00"
+  },
+  {
+    "Id": "RUT-164",
+    "UsuarioId": "USR-33",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.674743-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674743-06:00"
+  },
+  {
+    "Id": "RUT-165",
+    "UsuarioId": "USR-33",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747433-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747434-06:00"
+  },
+  {
+    "Id": "RUT-166",
+    "UsuarioId": "USR-34",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747437-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747437-06:00"
+  },
+  {
+    "Id": "RUT-167",
+    "UsuarioId": "USR-34",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.674744-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747441-06:00"
+  },
+  {
+    "Id": "RUT-168",
+    "UsuarioId": "USR-34",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747444-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747444-06:00"
+  },
+  {
+    "Id": "RUT-169",
+    "UsuarioId": "USR-34",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747448-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747448-06:00"
+  },
+  {
+    "Id": "RUT-170",
+    "UsuarioId": "USR-34",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747451-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747452-06:00"
+  },
+  {
+    "Id": "RUT-171",
+    "UsuarioId": "USR-35",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747455-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747455-06:00"
+  },
+  {
+    "Id": "RUT-172",
+    "UsuarioId": "USR-35",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747458-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747459-06:00"
+  },
+  {
+    "Id": "RUT-173",
+    "UsuarioId": "USR-35",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747462-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747462-06:00"
+  },
+  {
+    "Id": "RUT-174",
+    "UsuarioId": "USR-35",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747465-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747466-06:00"
+  },
+  {
+    "Id": "RUT-175",
+    "UsuarioId": "USR-35",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747469-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674747-06:00"
+  },
+  {
+    "Id": "RUT-176",
+    "UsuarioId": "USR-36",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747473-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747473-06:00"
+  },
+  {
+    "Id": "RUT-177",
+    "UsuarioId": "USR-36",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747476-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747477-06:00"
+  },
+  {
+    "Id": "RUT-178",
+    "UsuarioId": "USR-36",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.674748-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674748-06:00"
+  },
+  {
+    "Id": "RUT-179",
+    "UsuarioId": "USR-36",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747534-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747534-06:00"
+  },
+  {
+    "Id": "RUT-180",
+    "UsuarioId": "USR-36",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747538-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747539-06:00"
+  },
+  {
+    "Id": "RUT-181",
+    "UsuarioId": "USR-37",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747543-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747543-06:00"
+  },
+  {
+    "Id": "RUT-182",
+    "UsuarioId": "USR-37",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747547-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747547-06:00"
+  },
+  {
+    "Id": "RUT-183",
+    "UsuarioId": "USR-37",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747551-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747551-06:00"
+  },
+  {
+    "Id": "RUT-184",
+    "UsuarioId": "USR-37",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747554-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747554-06:00"
+  },
+  {
+    "Id": "RUT-185",
+    "UsuarioId": "USR-37",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747558-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747558-06:00"
+  },
+  {
+    "Id": "RUT-186",
+    "UsuarioId": "USR-38",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747562-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747562-06:00"
+  },
+  {
+    "Id": "RUT-187",
+    "UsuarioId": "USR-38",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747565-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747566-06:00"
+  },
+  {
+    "Id": "RUT-188",
+    "UsuarioId": "USR-38",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747569-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747569-06:00"
+  },
+  {
+    "Id": "RUT-189",
+    "UsuarioId": "USR-38",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747572-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747573-06:00"
+  },
+  {
+    "Id": "RUT-190",
+    "UsuarioId": "USR-38",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747576-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747577-06:00"
+  },
+  {
+    "Id": "RUT-191",
+    "UsuarioId": "USR-39",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.674758-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.674758-06:00"
+  },
+  {
+    "Id": "RUT-192",
+    "UsuarioId": "USR-39",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747583-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747584-06:00"
+  },
+  {
+    "Id": "RUT-193",
+    "UsuarioId": "USR-39",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747587-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747587-06:00"
+  },
+  {
+    "Id": "RUT-194",
+    "UsuarioId": "USR-39",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747591-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747591-06:00"
+  },
+  {
+    "Id": "RUT-195",
+    "UsuarioId": "USR-39",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747594-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747594-06:00"
+  },
+  {
+    "Id": "RUT-196",
+    "UsuarioId": "USR-40",
+    "EntrenadorId": "ENT-01",
+    "Nombre": "Piernas",
+    "Ejercicios": "Sentadillas 4x12, Prensa 3x12",
+    "PesoCargaKg": 20,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747598-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747598-06:00"
+  },
+  {
+    "Id": "RUT-197",
+    "UsuarioId": "USR-40",
+    "EntrenadorId": "ENT-02",
+    "Nombre": "Pecho",
+    "Ejercicios": "Press banca 4x10, Flexiones 3x12",
+    "PesoCargaKg": 25,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747602-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747602-06:00"
+  },
+  {
+    "Id": "RUT-198",
+    "UsuarioId": "USR-40",
+    "EntrenadorId": "ENT-03",
+    "Nombre": "Espalda",
+    "Ejercicios": "Remo 4x12, Jalones 3x10",
+    "PesoCargaKg": 30,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747605-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747606-06:00"
+  },
+  {
+    "Id": "RUT-199",
+    "UsuarioId": "USR-40",
+    "EntrenadorId": "ENT-04",
+    "Nombre": "Cardio",
+    "Ejercicios": "Caminadora 20 minutos, Bicicleta 15 minutos",
+    "PesoCargaKg": 35,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747609-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747609-06:00"
+  },
+  {
+    "Id": "RUT-200",
+    "UsuarioId": "USR-40",
+    "EntrenadorId": "ENT-05",
+    "Nombre": "Cuerpo completo",
+    "Ejercicios": "Sentadillas 3x12, Flexiones 3x10, Plancha 3x30s",
+    "PesoCargaKg": 40,
+    "FechaAsignacion": "2026-11-07T15:49:44.6747613-06:00",
+    "FechaExpiracion": "2026-12-07T15:49:44.6747613-06:00"
   }
 ]

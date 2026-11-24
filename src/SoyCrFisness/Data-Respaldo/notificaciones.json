@@ -3,35 +3,35 @@
     "Id": "NOT-01",
     "DestinatarioId": "USR-01",
     "Mensaje": "Tu rutina vence en 2 d\u00EDas. Solicita actualizaci\u00F3n.",
-    "Fecha": "2026-11-17T06:15:44.7835413-06:00",
+    "Fecha": "2026-11-22T10:49:44.6758235-06:00",
     "EsAlertaNegativa": true
   },
   {
     "Id": "NOT-02",
     "DestinatarioId": "USR-15",
     "Mensaje": "\u00A1Ganaste la insignia Capit\u00E1n de Hierro!",
-    "Fecha": "2026-11-15T11:15:44.7835865-06:00",
+    "Fecha": "2026-11-20T15:49:44.6758685-06:00",
     "EsAlertaNegativa": false
   },
   {
     "Id": "NOT-03",
     "DestinatarioId": "ENT-01",
     "Mensaje": "El usuario USR-01 tiene su rutina pr\u00F3xima a vencer.",
-    "Fecha": "2026-11-17T08:15:44.7835868-06:00",
+    "Fecha": "2026-11-22T12:49:44.6758688-06:00",
     "EsAlertaNegativa": true
   },
   {
     "Id": "NOT-04",
     "DestinatarioId": "USR-03",
     "Mensaje": "Alerta: Llevas pocas visitas esta semana.",
-    "Fecha": "2026-11-16T11:15:44.7835869-06:00",
+    "Fecha": "2026-11-21T15:49:44.6758759-06:00",
     "EsAlertaNegativa": true
   },
   {
     "Id": "NOT-05",
     "DestinatarioId": "ENT-02",
     "Mensaje": "Clase de resistencia grupal llena para ma\u00F1ana.",
-    "Fecha": "2026-11-17T10:15:44.7835871-06:00",
+    "Fecha": "2026-11-22T14:49:44.675876-06:00",
     "EsAlertaNegativa": false
   }
 ]

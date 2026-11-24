@@ -5,7 +5,7 @@
     "Titulo": "Capit\u00E1n de Hierro",
     "Descripcion": "5 visitas seguidas en la semana",
     "EsDeVerguenza": false,
-    "FechaObtencion": "2026-11-15T11:15:44.783211-06:00"
+    "FechaObtencion": "2026-11-20T15:49:44.6754899-06:00"
   },
   {
     "Id": "INS-02",
@@ -13,7 +13,7 @@
     "Titulo": "Muralla Rojinegra",
     "Descripcion": "Entren\u00F3 antes de las 7 AM",
     "EsDeVerguenza": false,
-    "FechaObtencion": "2026-11-13T11:15:44.7832326-06:00"
+    "FechaObtencion": "2026-11-18T15:49:44.6755112-06:00"
   },
   {
     "Id": "INS-03",
@@ -21,7 +21,7 @@
     "Titulo": "Modo Sof\u00E1",
     "Descripcion": "Solo 1 visita en 15 d\u00EDas",
     "EsDeVerguenza": true,
-    "FechaObtencion": "2026-11-16T11:15:44.7832328-06:00"
+    "FechaObtencion": "2026-11-21T15:49:44.6755114-06:00"
   },
   {
     "Id": "INS-04",
@@ -29,7 +29,7 @@
     "Titulo": "Reina del Spinning",
     "Descripcion": "Complet\u00F3 4 clases seguidas",
     "EsDeVerguenza": false,
-    "FechaObtencion": "2026-11-14T11:15:44.7832329-06:00"
+    "FechaObtencion": "2026-11-19T15:49:44.6755116-06:00"
   },
   {
     "Id": "INS-05",
@@ -37,6 +37,6 @@
     "Titulo": "Fantasma del CAR",
     "Descripcion": "Pag\u00F3 el mes y no vino",
     "EsDeVerguenza": true,
-    "FechaObtencion": "2026-11-17T11:15:44.7832331-06:00"
+    "FechaObtencion": "2026-11-22T15:49:44.6755117-06:00"
   }
 ]
